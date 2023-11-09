@@ -59,7 +59,46 @@ Giả sử chúng ta muốn lấy Quyển A . Hiện tại, nó đang ở cuối
 
 #### Push
 
-Thao tác chèn các phần tử vào ngăn xếp được gọi là push . Khi chúng ta đẩy cuốn sách lên một chồng, chúng ta đặt cuốn sách lên phần tử trên cùng trước đó , điều đó có nghĩa là cuốn sách mới trở thành phần tử trên cùng . Đây là ý nghĩa của chúng tôi khi sử dụng thao tác đẩy , chúng tôi đẩy các phần tử vào ngăn xếp. Chúng ta chèn các phần tử vào ngăn xếp và phần tử cuối cùng được đẩy lên trên cùng mới của ngăn xếp.
+Thao tác chèn các phần tử vào ngăn xếp được gọi là push. Khi chúng ta đẩy cuốn sách lên một chồng, chúng ta đặt cuốn sách lên trên phần tử trên cùng, điều đó có nghĩa là cuốn sách mới trở thành phần tử trên cùng. Đây là ý nghĩa khi sử dụng thao tác push.
+
+#### Pop
+
+Có một thao tác khác mà chúng ta có thể thực hiện trên ngăn xếp, đó là popping. Popping là khi chúng ta lấy cuốn sách trên cùng của chồng sách và đặt nó xuống. Điều này ngụ ý rằng khi chúng ta xóa một phần tử khỏi ngăn xếp, ngăn xếp sẽ tuân theo thuộc tính LIFO (Last In First Out). Điều này có nghĩa là phần tử trên cùng hay phần tử cuối cùng được chèn vào, sẽ bị xóa khi chúng ta thực hiện thao tác popping.
+
+Push Và Pop là hai quy trình cơ bản mà chúng ta cần cho cấu trúc dữ liệu này.
+
+#### Peek
+
+Một điều khác mà chúng ta có thể làm là xem phần tử trên cùng của ngăn xếp, ta có thể hỏi cấu trúc dữ liệu này rằng: "Phần tử trên cùng là gì?" và nó có thể cung cấp thông tin đó cho chúng ta bằng cách sử dụng thao tác nhìn trộm (peek). Lưu ý rằng thao tác peek không loại bỏ phần tử trên cùng mà chỉ trả về phần tử đó.
+
+Bây giờ tôi sẽ tạo một lớp ngăn xếp và hàm tạo của lớp sẽ khởi tạo danh sách Python.
+
+```python
+"""
+Stack Data Structure
+"""
+class Stack():
+    def __init__(self):
+        self.items = []
+```
+
+Tôi đang định nghĩa một biến lớp gọi là items và tôi đang gán nó vào một danh sách trống. items được tạo ra khi chúng ta tạo một đối tượng ngăn xếp, và bây giờ chúng ta hãy tạo phương thức push
+
+```python
+"""
+Stack Data Structure
+"""
+class Stack():
+    def __init__(self):
+        self.items = []
+    
+    def push(self, item):
+        self.items.append(item)
+```
+
+Phương thức append() là một phương thức tích hợp sẵn cho danh sách Python, bổ sung thêm item vào cuối danh sách. Đó là điều mà chúng tôi muốn làm cho phương thức push() của Stack
+
+
 
 ## Singly Linked Lists
 

@@ -49,6 +49,18 @@ Hiện tại, những cuốn sách này đang được rải rác khắp sàn v�
 | :--------------------------: | :---------------------------------------: | :-----------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :------------------------------------------------------: |
 |     ![first](image.png)      |          ![second](image-1.png)           |                              ![third](image-2.png)                              |                             ![fourth](image-3.png)                             |                  ![fifth](image-4.png)                   |
 
+Bây giờ chúng ta đã có một chồng sách đẹp đẽ và gọn gàng! Nếu chúng ta muốn lấy một cuốn sách từ ngăn xếp này, chúng ta có thể đưa cuốn sách lên trên. Việc lấy một cuốn sách từ dưới lên hơi bấp bênh và chúng ta không muốn lật đổ toàn bộ chồng sách. Do đó, chúng ta sẽ lấy cuốn sách trên cùng xuống và đọc nó hoặc làm bất cứ điều gì chúng ta muốn với nó.
+
+Giả sử chúng ta muốn lấy Quyển A . Hiện tại, nó đang ở cuối ngăn xếp nên chúng ta cần lấy Quyển D , đặt nó xuống, sau đó làm tương tự cho Quyển C và Quyển B , sau đó chúng ta có thể truy cập Quyển A.
+
+Đây là ý tưởng chính của ngăn xếp. Ngăn xếp cấu trúc dữ liệu rất giống với ngăn xếp vật lý mà bạn có thể quen thuộc nhất. Cấu trúc dữ liệu ngăn xếp cho phép chúng ta đặt bất kỳ tạo phẩm, biến hoặc đối tượng lập trình nào lên đó, giống như ngăn xếp ví dụ của chúng ta cho phép chúng ta đặt sách vào đó.
+
+### Hoạt động ngăn xếp
+
+#### Push
+
+Thao tác chèn các phần tử vào ngăn xếp được gọi là push . Khi chúng ta đẩy cuốn sách lên một chồng, chúng ta đặt cuốn sách lên phần tử trên cùng trước đó , điều đó có nghĩa là cuốn sách mới trở thành phần tử trên cùng . Đây là ý nghĩa của chúng tôi khi sử dụng thao tác đẩy , chúng tôi đẩy các phần tử vào ngăn xếp. Chúng ta chèn các phần tử vào ngăn xếp và phần tử cuối cùng được đẩy lên trên cùng mới của ngăn xếp.
+
 ## Singly Linked Lists
 
 ## Circular Linked Lists

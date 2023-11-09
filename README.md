@@ -45,13 +45,9 @@ Giả sử chúng ta có bốn cuốn sách với tựa đề hấp dẫn sau:
 
 Hiện tại, những cuốn sách này đang được rải rác khắp sàn và chúng ta muốn xếp chúng lại cho gọn gàng.
 
-<div style="overflow-x: scroll;" markdown="block">
-
 | Bốn cuốn sách nằm ở khắp nơi | Chúng tôi lấy cuốn sách A và đặt nó xuống | Chúng ta quay lại đống sách của mình, lấy Quyển B và đặt nó lên trên chồng sách | Chúng tôi lấy Quyển C, đặt nó lên cuốn B và chúng tôi gần như đã dọn dẹp xong! | Bây giờ chúng ta lấy Quyển D và đặt nó lên trên Quyển C. |
 |:-------------------:|:----------------------:|:---:|:----:|:-----:|
 | ![first](image.png) | ![second](image-1.png) | ![third](image-2.png) | ![fourth](image-3.png) | ![fifth](image-4.png) |
-
-</div>
 
 ## Singly Linked Lists
 

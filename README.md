@@ -55,7 +55,7 @@ Giả sử chúng ta muốn lấy Quyển A . Hiện tại, nó đang ở cuối
 
 Đây là ý tưởng chính của ngăn xếp. Ngăn xếp cấu trúc dữ liệu rất giống với ngăn xếp vật lý mà bạn có thể quen thuộc nhất. Cấu trúc dữ liệu ngăn xếp cho phép chúng ta đặt bất kỳ tạo phẩm, biến hoặc đối tượng lập trình nào lên đó, giống như ngăn xếp ví dụ của chúng ta cho phép chúng ta đặt sách vào đó.
 
-### Hoạt động ngăn xếp
+### Hoạt động của ngăn xếp
 
 #### Push
 
@@ -97,8 +97,6 @@ class Stack():
 ```
 
 Phương thức append() là một phương thức tích hợp sẵn cho danh sách Python, bổ sung thêm item vào cuối danh sách. Đó là điều mà chúng tôi muốn làm cho phương thức push() của Stack
-
-
 
 ## Singly Linked Lists
 
